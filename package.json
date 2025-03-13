@@ -1,0 +1,33 @@
+{
+  "name": "telegram-story-bot",
+  "version": "1.0.0",
+  "description": "Telegram бот, который генерирует рассказ о дискуссии в чате за последние 12 часов",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test-speech": "node test-speech.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "anthropic",
+    "claude",
+    "google-speech",
+    "story"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.18.0",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@google-cloud/speech": "^6.3.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.3.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "input": "^1.0.1",
+    "telegraf": "^4.15.3",
+    "telegram": "^2.26.22"
+  }
+}
